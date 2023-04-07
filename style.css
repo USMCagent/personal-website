@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: red;
+    background-color: grey;
+}
+
+div{
+    text-align: center;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 21px 8px 22px;
+    color: var(--color-white );
+    font-size: 1rem;
+    line-height: 1.11;
+}
+
+
+
+
+img {
+    width: 500px;
+    height: 500px;
+}
