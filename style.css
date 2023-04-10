@@ -21,3 +21,10 @@ img {
     width: 500px;
     height: 500px;
 }
+p {
+    font-size: 28px;
+}
+body{
+    text-align: center;
+    background-color: crimson;
+}
