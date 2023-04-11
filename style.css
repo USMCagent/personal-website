@@ -4,18 +4,26 @@ h1 {
     background-color: grey;
 }
 
-div{
+a{
+  text-decoration: none;  
+  font-size: 35px;
+  color: black;
+  text-indent: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
     text-align: center;
     color: aquamarine;
-    text-decoration: none;
     padding: 21px 8px 22px;
     color: var(--color-white );
     font-size: 1rem;
     line-height: 1.11;
+    margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
-
-
-
 
 img {
     width: 500px;
@@ -23,8 +31,25 @@ img {
 }
 p {
     font-size: 28px;
+    font-family: fantasy;
 }
-body{
-    text-align: center;
-    background-color: crimson;
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: cadetblue;
+        text-align: center;
+      }
+
+header{
+    background-color: blueviolet;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 60px;
 }
+
