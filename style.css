@@ -22,17 +22,22 @@ ul{
 }
 
 img {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     width: 30.625rem;
     height: 30.625rem;
+    margin-right: 50px;
 }
 p {
     display: flex;
     justify-content: flex-start;
     font-size: 2rem;
     font-family: fantasy;
+    margin-left: 50px;
     
 }
     body {
@@ -60,4 +65,20 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+display: flex;
+flex-direction: row;
+}
+
+form{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
